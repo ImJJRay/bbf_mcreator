@@ -1,0 +1,55 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CustomSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_sword"
+    },
+    {
+      "name": "CustomSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.bbf.custom_sword": "Magma Sword"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "bbf",
+    "modName": "BBF",
+    "version": "1.0.0",
+    "author": "LocalUser, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.bbf",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547418
+}
