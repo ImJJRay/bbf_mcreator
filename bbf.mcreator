@@ -31,7 +31,7 @@
       "name": "MagmaArmor",
       "type": "armor",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_armor",
@@ -46,7 +46,7 @@
       "name": "MagmaAxe",
       "type": "tool",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_axe"
@@ -55,7 +55,7 @@
       "name": "CustomPickaxe",
       "type": "tool",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "custom_pickaxe"
