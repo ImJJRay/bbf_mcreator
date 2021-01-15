@@ -26,12 +26,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "CustomPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_pickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.bbf.custom_pickaxe": "Magma Pickaxe",
       "item.bbf.custom_sword": "Magma Sword"
     }
   },
