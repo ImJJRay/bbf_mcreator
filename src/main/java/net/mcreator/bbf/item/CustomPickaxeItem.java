@@ -1,27 +1,12 @@
 
 package net.mcreator.bbf.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.World;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-import net.minecraft.entity.LivingEntity;
-
-import net.mcreator.bbf.procedures.CustomSwordLivingEntityIsHitWithToolProcedure;
-import net.mcreator.bbf.BbfModElements;
-
-import java.util.Map;
-import java.util.HashMap;
-
 @BbfModElements.ModElement.Tag
 public class CustomPickaxeItem extends BbfModElements.ModElement {
+
 	@ObjectHolder("bbf:custom_pickaxe")
 	public static final Item block = null;
+
 	public CustomPickaxeItem(BbfModElements instance) {
 		super(instance, 3);
 	}
@@ -53,6 +38,7 @@ public class CustomPickaxeItem extends BbfModElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);
@@ -62,11 +48,15 @@ public class CustomPickaxeItem extends BbfModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
+
 					$_dependencies.put("entity", entity);
+
 					CustomSwordLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
+
 		}.setRegistryName("custom_pickaxe"));
 	}
+
 }

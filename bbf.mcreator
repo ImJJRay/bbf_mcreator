@@ -35,13 +35,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "custom_pickaxe"
+    },
+    {
+      "name": "MagmaArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bbf.custom_pickaxe": "Magma Pickaxe",
       "item.bbf.custom_sword": "Magma Sword"
     }
   },
