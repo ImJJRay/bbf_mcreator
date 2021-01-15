@@ -41,6 +41,15 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "MagmaAxe",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_axe"
     }
   ],
   "variable_elements": [],
@@ -48,6 +57,7 @@
   "language_map": {
     "en_us": {
       "item.bbf.magma_armor_helmet": "Magma Armor Helmet",
+      "item.bbf.magma_axe": "Magma Axe",
       "item.bbf.custom_sword": "Magma Sword",
       "item.bbf.magma_armor_boots": "Magma Armor Boots",
       "item.bbf.magma_armor_leggings": "Magma Armor Leggings",
