@@ -26,13 +26,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "MagmaArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bbf.custom_sword": "Magma Sword"
+      "item.bbf.magma_armor_helmet": "Magma Armor Helmet",
+      "item.bbf.custom_sword": "Magma Sword",
+      "item.bbf.magma_armor_boots": "Magma Armor Boots",
+      "item.bbf.magma_armor_leggings": "Magma Armor Leggings",
+      "item.bbf.magma_armor_chestplate": "Magma Armor Body"
     }
   },
   "workspaceSettings": {
