@@ -50,18 +50,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_axe"
+    },
+    {
+      "name": "CustomPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "custom_pickaxe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bbf.magma_armor_helmet": "Magma Armor Helmet",
-      "item.bbf.magma_axe": "Magma Axe",
-      "item.bbf.custom_sword": "Magma Sword",
-      "item.bbf.magma_armor_boots": "Magma Armor Boots",
-      "item.bbf.magma_armor_leggings": "Magma Armor Leggings",
-      "item.bbf.magma_armor_chestplate": "Magma Armor Body"
+      "item.bbf.custom_sword": "Magma Sword"
     }
   },
   "workspaceSettings": {

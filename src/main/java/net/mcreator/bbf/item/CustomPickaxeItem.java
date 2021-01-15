@@ -2,18 +2,18 @@
 package net.mcreator.bbf.item;
 
 @BbfModElements.ModElement.Tag
-public class MagmaAxeItem extends BbfModElements.ModElement {
+public class CustomPickaxeItem extends BbfModElements.ModElement {
 
-	@ObjectHolder("bbf:magma_axe")
+	@ObjectHolder("bbf:custom_pickaxe")
 	public static final Item block = null;
 
-	public MagmaAxeItem(BbfModElements instance) {
-		super(instance, 4);
+	public CustomPickaxeItem(BbfModElements instance) {
+		super(instance, 3);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new AxeItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 3000;
 			}
@@ -27,7 +27,7 @@ public class MagmaAxeItem extends BbfModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 5;
+				return 1;
 			}
 
 			public int getEnchantability() {
@@ -56,7 +56,7 @@ public class MagmaAxeItem extends BbfModElements.ModElement {
 				return retval;
 			}
 
-		}.setRegistryName("magma_axe"));
+		}.setRegistryName("custom_pickaxe"));
 	}
 
 }
