@@ -31,7 +31,7 @@
       "name": "MagmaArmor",
       "type": "armor",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_armor",
@@ -46,7 +46,7 @@
       "name": "MagmaAxe",
       "type": "tool",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "magma_axe"
@@ -55,17 +55,27 @@
       "name": "CustomPickaxe",
       "type": "tool",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "custom_pickaxe"
+    },
+    {
+      "name": "MagmaIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magma_ingot"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.bbf.custom_sword": "Magma Sword"
+      "item.bbf.custom_sword": "Magma Sword",
+      "item.bbf.magma_ingot": "Magma Ingot"
     }
   },
   "workspaceSettings": {
